@@ -1,0 +1,89 @@
+{
+  "entites": [
+    {
+      "name": "Prescription",
+      "attributes": [
+        {
+          "name": "Drug Dose",
+          "values": [
+            "mg",
+            "g",
+            "ml",
+            "mcg"
+          ],
+          "allowCustomValues": true,
+          "allowMultipleValues": false
+        },
+        {
+          "name": "Drug Name",
+          "values": [],
+          "allowCustomValues": true,
+          "allowMultipleValues": false
+        },
+        {
+          "name": "Drug Frequency",
+          "values": [
+            "Daily",
+            "Weekly",
+            "Monthly"
+          ],
+          "allowCustomValues": true,
+          "allowMultipleValues": false
+        }
+      ]
+    },
+    {
+      "name": "Patient",
+      "attributes": [
+        {
+          "name": "First Name",
+          "values": [],
+          "allowCustomValues": true,
+          "allowMultipleValues": false
+        },
+        {
+          "name": "Last Name",
+          "values": [],
+          "allowCustomValues": true,
+          "allowMultipleValues": false
+        },
+        {
+          "name": "NHS Number",
+          "values": [],
+          "allowCustomValues": true,
+          "allowMultipleValues": false
+        },
+        {
+          "name": "Date of Birth",
+          "values": [],
+          "allowCustomValues": true,
+          "allowMultipleValues": false
+        }
+      ]
+    }
+  ],
+  "globalAttributes": [
+    {
+      "name": "Certainty",
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "allowCustomValues": false,
+      "allowMultipleValues": false
+    },
+    {
+      "name": "Polarity",
+      "values": [
+        "Affirmed",
+        "Negated"
+      ],
+      "allowCustomValues": false,
+      "allowMultipleValues": false
+    }
+  ]
+}
+
